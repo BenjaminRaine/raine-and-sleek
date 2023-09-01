@@ -1,0 +1,51 @@
+.text-animate {
+  display: inline-block;
+  opacity: 0;
+  animation: bounceIn 0.7s 1s;
+  animation-fill-mode: forwards;
+  min-width: 10px;
+}
+
+.text-animate-hover {
+  min-width: 10px;
+  display: inline-block;
+  animation-fill-mode: both;
+
+  &:hover {
+    animation: pulse .25s;
+  }
+}
+
+//TODO: CHANGE HERE AND IN INDEX TO REMOVE HARDCODED CONSTANT
+@for $i from 1 through 44 {
+  .text-animate._#{$i} {
+    animation-delay: #{0.25 + $i / 15}s;
+  }
+
+  .text-animate-hover._#{$i} {
+    &:hover {
+      // Code for random hover
+      $temp-r: 0;
+      $temp-g: 0;
+      $temp-b: 0;
+
+      @while ($temp-r + $temp-g + $temp-b) < 384 {
+        $temp-r: floor(random(256));
+        $temp-g: floor(random(256));
+        $temp-b: floor(random(256));
+
+        $rgb-select: floor(random(3));
+        @if $rgb-select == 0 {
+          $temp-r: $temp-r - 48
+        }
+        @if $rgb-select == 1 {
+          $temp-g: $temp-g - 48
+        }
+        @if $rgb-select == 2 {
+          $temp-b: $temp-b - 48
+        }
+      }
+      color: rgb($temp-r, $temp-g, $temp-b);
+    }
+  }
+}
