@@ -20,7 +20,6 @@
     /* TODO: Remove this and the image to style differently (Dependant on the thing being a giant letter) */
 
     &:before {
-      content:'<h1>';
       font-family: 'Helvetica Neue';
       color: #a5ffd6;
       font-size: 18px;
@@ -31,7 +30,6 @@
     }
 
     &:after {
-      content: '</h1>';
       font-family: 'Helvetica Neue';
       color: #a5ffd6;
       font-size: 18px;

@@ -36,13 +36,70 @@
   transform-style: preserve-3d;
   animation: fadeIn 1s forwards;
   animation-delay: 1s;
+  overflow-y: scroll;
 }
 
 .about-page {
   .text-zone {
     position: absolute;
+    left: 60px;
+    top: 30%;
+    transform: translateY(-30%);
+    width: 50%;
+    vertical-align: middle;
+    display: table-cell;
+    max-height: 90%;
+
+    h1 {
+      font-size: 53px;
+      font-family: "Helvetica Neue";
+      color: #a5ffd6;
+      font-weight: 400;
+      margin-top: 0;
+      position: relative;
+      margin-bottom: 40px;
+      left: 10%;
+      text-align: left;
+
+      &:before {
+        font-family: "Helvetica Neue";
+        font-size: 18px;
+        position: absolute;
+        margin-top: -10px;
+        left: -10px;
+        opacity: 0.6;
+        line-height: 18px;
+      }
+
+      &:after {
+        font-family: "Helvetica Neue";
+        font-size: 18px;
+        line-height: 18px;
+        position: absolute;
+        left: -30px;
+        bottom: -20px;
+        opacity: 0.6;
+      }
+    }
+
+    p {
+      font-size: 18px;
+      color: #fff;
+      font-family: sans-serif;
+      font-weight: 300;
+      min-width: fit-content;
+      text-align: left;
+      margin: 0 20px 0 20px;
+      max-width: 50%;
+    }
+  }
+}
+
+.contact-page {
+  .text-zone {
+    position: absolute;
     left: 10%;
-    top: 50%;
+    top: 30%;
     transform: translateY(-50%);
     width: 35%;
     vertical-align: middle;
@@ -61,7 +118,6 @@
       text-align: left;
 
       &:before {
-        content: '<h1>';
         font-family: "Helvetica Neue";
         font-size: 18px;
         position: absolute;
@@ -72,7 +128,6 @@
       }
 
       &:after {
-        content: '</h1>';
         font-family: "Helvetica Neue";
         font-size: 18px;
         line-height: 18px;

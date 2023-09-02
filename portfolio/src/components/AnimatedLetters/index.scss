@@ -36,13 +36,13 @@
 
         $rgb-select: floor(random(3));
         @if $rgb-select == 0 {
-          $temp-r: $temp-r - 48
+          $temp-r: $temp-r - 64
         }
         @if $rgb-select == 1 {
-          $temp-g: $temp-g - 48
+          $temp-g: $temp-g - 64
         }
         @if $rgb-select == 2 {
-          $temp-b: $temp-b - 48
+          $temp-b: $temp-b - 64
         }
       }
       color: rgb($temp-r, $temp-g, $temp-b);
