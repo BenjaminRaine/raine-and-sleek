@@ -1,0 +1,38 @@
+div.quartz {
+  background-color: #563456;
+  height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  animation: fadeInUp 2s 1s;
+  animation-fill-mode: forwards;
+
+  img {
+    width: 22%;
+    height: auto;
+    margin: 10px 20px;
+    object-fit: contain;
+  }
+}
+
+div.mountbatten {
+  background-color: #b75d6900;
+  height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+
+  animation: fadeInUp 2s 1s;
+  animation-fill-mode: forwards;
+
+  img {
+    width: 22%;
+    height: auto;
+    margin: 10px 20px;
+    object-fit: contain;
+  }
+}
+
+
+

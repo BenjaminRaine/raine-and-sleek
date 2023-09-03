@@ -4,19 +4,12 @@ $primary-color: #a5ffd6;
 
 @font-face {
   font-family: "Nexa Heavy";
-  src: url('./assets/fonts/Nexa-Heavy.ttf') format('ttf');
+  src: url('./assets/fonts/Nexa-Heavy.ttf') format('truetype');
 }
 
 @font-face {
   font-family: "Nexa Extra Light";
-  src: url('./assets/fonts/Nexa-ExtraLight.ttf') format('ttf');
-}
-
-@font-face {
-  font-family: 'Helvetica Neue';
-  src: url('./assets/fonts/helvetica-neu.ttf') format('ttf');
-  font-weight: normal;
-  font-style: normal;
+  src: url('./assets/fonts/Nexa-ExtraLight.ttf') format('truetype');
 }
 
 //TODO: Add additional font faces
