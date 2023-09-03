@@ -13,14 +13,12 @@
     color: #fff;
     font-size: 53px;
     margin: 0;
-    font-family: 'Helvetica Neue';
+    font-family: 'Nexa Heavy', sans-serif;
     font-weight: 400;
     text-align: left;
 
-    /* TODO: Remove this and the image to style differently (Dependant on the thing being a giant letter) */
-
     &:before {
-      font-family: 'Helvetica Neue';
+      font-family: 'Nexa Heavy', sans-serif;
       color: #a5ffd6;
       font-size: 18px;
       position: absolute;
@@ -30,7 +28,7 @@
     }
 
     &:after {
-      font-family: 'Helvetica Neue';
+      font-family: 'Nexa Heavy', sans-serif;
       color: #a5ffd6;
       font-size: 18px;
       position: absolute;
@@ -38,15 +36,6 @@
       margin-left: 20px;
       animation: fadeIn 1s 1.7s backwards;
       opacity: 0.6;
-    }
-
-    img {
-      width: 32px;
-      margin-left: 20px;
-      opacity: 0;
-      height: auto;
-      animation: rotateIn 1s linear both;
-      animation-delay: 1.4s;
     }
   }
 

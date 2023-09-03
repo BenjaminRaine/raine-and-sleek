@@ -5,10 +5,10 @@ html {
 body {
   margin: 0;
 
-  /* TODO: This should work! What the snecko?!
-  font: 300 11px/1.4 'Nexa Heavy', sans-seriff; */
+  /* TODO: This should work! What the snecko?! */
+  font: 300 11px/1.4 'Nexa Heavy', sans-seriff;
 
-  font: 300 11px/1.4 'Helvetica Neue', sans-serif;
+  /* font: 300 11px/1.4 'Helvetica Neue', sans-serif; */
   color: #444;
   background: #3b2c35;
   overflow: hidden;
