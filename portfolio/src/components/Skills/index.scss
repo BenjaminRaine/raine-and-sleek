@@ -1,10 +1,10 @@
-ul {
+ul.skillbar {
   position: absolute;
   width: 100%;
   display: block;
-  padding: 0;
+  left: 8%;
   list-style: none;
-  text-align: center;
+  text-align: left;
   margin: 0;
 
   li {
@@ -17,9 +17,55 @@ ul {
       position: relative;
       text-decoration: none;
 
+      animation: fadeInDown 2s 1s;
+      animation-fill-mode: forwards;
+
       &:hover {
         color: #a5ffd6;
       }
+    }
+
+    a.active {
+      svg {
+        color: #a5ffd6;
+      }
+    }
+  }
+}
+
+div.skill-desc {
+  background-color: #563456;
+  height: 460px;
+  width: 85%;
+  float: left;
+  margin-left: 16%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  animation: fadeInUp 2s 1s;
+  animation-fill-mode: forwards;
+
+  div.large-skill {
+    color: #a5ffd6;
+    font-size: 256px;
+    margin-left: 5%;
+    margin-top: 51px
+  }
+
+  div.skill-text {
+    width: 63%;
+    float: left;
+
+    h2 {
+      font-size: 36px;
+      font-family: 'Nexa Heavy', sans-serif;
+      color: #a5ffd6;
+      font-weight: 300;
+      margin-top: 0;
+      position: relative;
+      margin-bottom: 5px;
+      text-align: center;
     }
   }
 }
