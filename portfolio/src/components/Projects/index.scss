@@ -1,0 +1,57 @@
+div.plum {
+  background-color: #563456;
+  height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  animation: fadeInUp 2s 1s;
+  animation-fill-mode: forwards;
+
+  a {
+    color: #ffdfaf;
+  }
+
+  img {
+    width: 45%;
+    height: auto;
+    margin: 10px 20px;
+    object-fit: contain;
+  }
+
+  video {
+    width: 45%;
+    height: auto;
+    margin: 10px 20px;
+    object-fit: contain;
+  }
+}
+
+div.raisin {
+  background-color: #b75d6900;
+  height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+
+  animation: fadeInUp 2s 1s;
+  animation-fill-mode: forwards;
+
+  a {
+    color: #ffdfaf;
+  }
+
+  img {
+    width: 45%;
+    height: auto;
+    margin: 10px 20px;
+    object-fit: contain;
+  }
+
+  video {
+    width: 45%;
+    height: auto;
+    margin: 10px 20px;
+    object-fit: contain;
+  }
+}

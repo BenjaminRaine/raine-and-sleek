@@ -277,7 +277,7 @@ function sqlSkill()
 
             <p>
                 At BGC Engineering I used SQL to query neatly packaged data ready for continuous integration
-                with our platform. Here I also gained experience with NoSQL databases, in the design and
+                with our platform. Here I also gained experience with NoSQL databases in the design and
                 implementation of an annotation system using cloud firestore.
             </p>
 

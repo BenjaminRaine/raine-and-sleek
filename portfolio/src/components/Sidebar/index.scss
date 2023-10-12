@@ -89,6 +89,13 @@
       }
     }
 
+    a.projects-link {
+      &:after {
+        content: 'PROJECTS';
+        font-size: 8px;
+      }
+    }
+
     a.contact-link {
       &:after {
         content: 'CONTACT';
