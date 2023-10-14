@@ -55,3 +55,16 @@ div.raisin {
     object-fit: contain;
   }
 }
+
+@media screen and (max-width: 1400px) {
+  div.plum,
+  div.raisin {
+    p {
+      margin: 1%;
+    }
+
+    img {
+      margin: 0 1% 0 0;
+    }
+  }
+}

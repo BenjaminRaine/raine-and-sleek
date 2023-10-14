@@ -6,7 +6,7 @@ const Projects = () => {
 
     /*
     CUT TEXT:
-    
+
     After I got the hang of things I decided against anything
     overly complex for the ease of the user. The controls consisted of using the grips to grab interactables,
     triggers to press UI buttons, joysticks to turn and move, and rigidbodies on the controllers
@@ -57,7 +57,7 @@ const Projects = () => {
                         a couple weeks!
                         <br /> <br />
                         <a href="https://github.com/BenjaminRaine/spare-vr-escape-room">Repository</a> &emsp;
-                        <a href="https://github.com/BenjaminRaine/escape-solarscape">Full Playthrough</a> &emsp;
+                        <a href="https://youtu.be/pEmCKvVpdVo">Full Playthrough</a> &emsp;
                         <a download href="/downloads/Spare.zip">Current Build</a>
                     </p>
                 </div>

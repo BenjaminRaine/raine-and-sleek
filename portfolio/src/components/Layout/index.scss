@@ -2,6 +2,7 @@
   width: 100%;
   height: 100%;
   position: absolute;
+  overflow-y: scroll;
 }
 
 .top-tags {
@@ -36,7 +37,7 @@
   transform-style: preserve-3d;
   animation: fadeIn 1s forwards;
   animation-delay: 1s;
-  overflow-y: scroll;
+
 }
 
 .about-page {
@@ -269,6 +270,33 @@
       font-weight: 300;
       min-width: fit-content;
       text-align: left;
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .page {
+    position: initial;
+    overflow-y: visible;
+  }
+
+  .container {
+    position: initial;
+    height: auto;
+    min-height: auto;
+
+    &.about-page,
+    &.contact-page,
+    &.skills-page,
+    &.portfolio-page {
+      .text-zone {
+        position: initial;
+        transform: none;
+        width: 100%;
+        display: block;
+        padding: 20px;
+        box-sizing: border-box;
+      }
     }
   }
 }

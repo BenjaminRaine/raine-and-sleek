@@ -34,5 +34,17 @@ div.mountbatten {
   }
 }
 
+@media screen and (max-width: 1400px) {
+  div.mountbatten,
+  div.quartz {
+    p {
+      margin: 1%;
+    }
+
+    img {
+      margin: 0 1% 0 0;
+    }
+  }
+}
 
 

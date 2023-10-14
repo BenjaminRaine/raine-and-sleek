@@ -1,5 +1,5 @@
 import './index.scss'
-import BR from '../../../assets/images/logo-br.png'
+import BR from '../../../assets/images/logo-br-thin.png'
 
 const Logo = () => {
 
