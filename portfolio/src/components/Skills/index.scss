@@ -2,12 +2,13 @@ ul.skillbar {
   position: absolute;
   width: 100%;
   display: block;
-  left: 8%;
+  left: 20px;
   list-style: none;
   text-align: left;
   margin: 0;
 
   li {
+    max-width: 100%;
     a {
       font-size: 22px;
       color: #4d4d4e;
@@ -33,12 +34,14 @@ ul.skillbar {
   }
 }
 
+// removed margin-left: 16%
 div.skill-desc {
   background-color: #563456;
-  height: 460px;
+  min-height: 460px;
+  height: fit-content;
   width: 85%;
   float: left;
-  margin-left: 16%;
+  margin-left: 100px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -49,8 +52,7 @@ div.skill-desc {
   div.large-skill {
     color: #a5ffd6;
     font-size: 256px;
-    margin-left: 5%;
-    margin-top: 51px
+    margin: auto auto auto 5%;
   }
 
   div.skill-text {
